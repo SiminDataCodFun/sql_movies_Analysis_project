@@ -2,5 +2,5 @@
 
 SELECT title 
 from movies
-ORDER BY vote_count ASC
+ORDER BY vote_count DESC
 LIMIT 3; 
