@@ -2,7 +2,7 @@
 
 SELECT title, popularity
 FROM movies
-where strftime('%Y', release_date) = '2024'
+WHERE strftime('%Y', release_date) = '2024'
 ORDER BY popularity DESC
 LIMIT 5;
 
