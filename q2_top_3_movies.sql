@@ -1,4 +1,6 @@
 -- What are the 3 movies with the most votes of all times
-select popularity 
+
+SELECT title 
 from movies
-where 
+ORDER BY vote_count ASC
+LIMIT 3; 
