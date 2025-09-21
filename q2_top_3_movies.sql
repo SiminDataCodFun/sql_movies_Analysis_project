@@ -1,7 +1,7 @@
 -- What are the 3 movies with the most votes of all times
 
 SELECT title, vote_count
-from movies
+FROM movies
 ORDER BY vote_count DESC
 LIMIT 3; 
 
