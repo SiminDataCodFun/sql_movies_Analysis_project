@@ -1,6 +1,6 @@
 # sql_project
 
-hello my name is Simin
+hello 
 
 ### Here is the table scema
 ```mermaid
